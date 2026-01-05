@@ -7,7 +7,7 @@ Esta ferramenta tem várias categorias com coisas diferente como:
 - LuaTools (Serve para instalar o LuaTools e outras coisas);
 - SpiceTify (Uma ferramenta que modifica o Spotify);
 - Tutoriais (Serve pra ajudar com apareçe um erro ou quando não sabe como usar uma ferramenta);
-- E muito mais (no futuro):
+- E muito mais (no futuro);
 
 # ⚠️ ATENÇÃO ANTES DE TENTAR USAR O NOMONEY:
 **É necessário ter o python (é melhor o mais recente) para conseguir executar.**
