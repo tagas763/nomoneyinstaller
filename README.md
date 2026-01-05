@@ -22,3 +22,5 @@ Para usar esta ferramenta é facil, é só abrir o **CMD** *(consola do computad
 
 
 Qual quer dúvida ou se tiver bug mandar DM para este niick do Discord @```tugaa._.```
+
+![Preview](Picture.png)
