@@ -25,4 +25,4 @@ Qual quer dúvida ou se tiver bug mandar DM para este niick do Discord @```tugaa
 
 ![Preview](https://github.com/tagas763/nomoneyinstaller/blob/4ccb919ad2a4ae678351b9a2e97c3c0cb84b14e6/Picture.png)
 
-![Preview](https://github.com/tagas763/nomoneyinstaller/blob/4ccb919ad2a4ae678351b9a2e97c3c0cb84b14e6/Picture.png)
+![Preview](https://github.com/tagas763/nomoneyinstaller/blob/5fb7e7bb414d81396b0960656cc7a8962faa8abb/Picture2.png)
