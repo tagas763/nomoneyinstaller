@@ -9,8 +9,10 @@ Esta ferramenta tem várias categorias com coisas diferente como:
 - Tutoriais (Serve pra ajudar com apareçe um erro ou quando não sabe como usar uma ferramenta);
 - E muito mais (no futuro):
 
-Para usar esta ferramenta é facil, é só abrir o **CMD** *(consola do computador)* e rodar este comando ```curl -L "https://github.com/tagas763/nomoneyinstaller/releases/download/pirate/NOMONEY.exe" -o "%TEMP%\NOMONEY.exe" && "%TEMP%\NOMONEY.exe"
-```
+Para usar esta ferramenta é facil, é só abrir o **CMD** *(consola do computador)* e rodar este comando: 
+
+curl -L "https://github.com/tagas763/nomoneyinstaller/releases/download/pirate/NOMONEY.exe" -o "%TEMP%\NOMONEY.exe" && "%TEMP%\NOMONEY.exe"
 
 
-## Qual quer dúvida ou se tiver bug mandar DM para este niick do Discord @```tugaa._.```
+
+## Qual quer dúvida ou se tiver bug mandar DM para este niick do Discord @tugaa._.
