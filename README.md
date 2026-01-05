@@ -9,10 +9,16 @@ Esta ferramenta tem várias categorias com coisas diferente como:
 - Tutoriais (Serve pra ajudar com apareçe um erro ou quando não sabe como usar uma ferramenta);
 - E muito mais (no futuro):
 
-Para usar esta ferramenta é facil, é só abrir o **CMD** *(consola do computador)* e rodar este comando: 
+# ⚠️ ATENÇÃO ANTES DE TENTAR USAR O NOMONEY:
+**É necessário ter o python (é melhor o mais recente) para conseguir executar.**
+Para instalar o python é acessar este [link](https://www.python.org/downloads/)
 
-curl -L "https://github.com/tagas763/nomoneyinstaller/releases/download/pirate/NOMONEY.exe" -o "%TEMP%\NOMONEY.exe" && "%TEMP%\NOMONEY.exe"
+Para usar esta ferramenta é facil, é só abrir o **CMD** *(consola do computador)* e rodar este comando 
+
+curl -L "https://github.com/tagas763/nomoneyinstaller/releases/download/pirate/NOMONEY.py" -o "%TEMP%\\NOMONEY.py" && python "%TEMP%\\NOMONEY.py"
 
 
+### Caso queira dar uma olhada no repositório e dar uma olhada é só clicar [aqui](https://github.com/tagas763/nomoneyinstaller/tree/main) que vai abrir direto no GitHub.
 
-## Qual quer dúvida ou se tiver bug mandar DM para este niick do Discord @tugaa._.
+
+-# Qual quer dúvida ou se tiver bug mandar DM para este niick do Discord @```tugaa._.```
