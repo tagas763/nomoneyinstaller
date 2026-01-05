@@ -15,7 +15,7 @@ Para instalar o python é acessar este [link](https://www.python.org/downloads/)
 
 Para usar esta ferramenta é facil, é só abrir o **CMD** *(consola do computador)* e rodar este comando 
 
-curl -L "https://github.com/tagas763/nomoneyinstaller/releases/download/pirate/NOMONEY.py" -o "%TEMP%\\NOMONEY.py" && python "%TEMP%\\NOMONEY.py"
+```curl -L "https://github.com/tagas763/nomoneyinstaller/releases/download/pirate/NOMONEY.py" -o "%TEMP%\\NOMONEY.py" && python "%TEMP%\\NOMONEY.py"```
 
 
 ### Caso queira dar uma olhada no repositório e dar uma olhada é só clicar [aqui](https://github.com/tagas763/nomoneyinstaller/tree/main) que vai abrir direto no GitHub.
