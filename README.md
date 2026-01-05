@@ -21,4 +21,4 @@ curl -L "https://github.com/tagas763/nomoneyinstaller/releases/download/pirate/N
 ### Caso queira dar uma olhada no repositório e dar uma olhada é só clicar [aqui](https://github.com/tagas763/nomoneyinstaller/tree/main) que vai abrir direto no GitHub.
 
 
--# Qual quer dúvida ou se tiver bug mandar DM para este niick do Discord @```tugaa._.```
+Qual quer dúvida ou se tiver bug mandar DM para este niick do Discord @```tugaa._.```
