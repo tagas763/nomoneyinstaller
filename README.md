@@ -14,9 +14,6 @@ Para usar esta ferramenta é facil, é só abrir o **CMD** *(consola do computad
 ```curl -L https://github.com/tagas763/nomoneyinstaller/releases/download/pirate/NOMONEY.exe -o "%TEMP%\NOMONEY.exe" && "%TEMP%\NOMONEY.exe"```
 
 
-### Caso queira dar uma olhada no repositório e dar uma olhada é só clicar [aqui](https://github.com/tagas763/nomoneyinstaller/tree/main) que vai abrir direto no GitHub.
-
-
 Qual quer dúvida ou se tiver bug mandar DM para este niick do Discord @```tugaa._.```
 
 ## Screenshots
