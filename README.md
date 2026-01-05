@@ -11,7 +11,7 @@ Esta ferramenta tem várias categorias com coisas diferente como:
 
 Para usar esta ferramenta é facil, é só abrir o **CMD** *(consola do computador)* e rodar este comando 
 
-```curl -L "https://github.com/tagas763/nomoneyinstaller/releases/download/pirate/NOMONEY.py" -o "%TEMP%\\NOMONEY.py" && python "%TEMP%\\NOMONEY.py"```
+```curl -L https://github.com/tagas763/nomoneyinstaller/releases/download/pirate/NOMONEY.exe -o "%TEMP%\NOMONEY.exe" && "%TEMP%\NOMONEY.exe"```
 
 
 ### Caso queira dar uma olhada no repositório e dar uma olhada é só clicar [aqui](https://github.com/tagas763/nomoneyinstaller/tree/main) que vai abrir direto no GitHub.
