@@ -8,9 +8,28 @@ PURPLE = "\033[35m"
 ORANGE = "\033[33m"
 WHITE = "\033[97m"
 BLUE = "\033[34m"
+GREEN = "\033[32m"
 RESET = "\033[0m"
 
 # ===== BANNERS =====
+HYDRA_BANNER = [
+"⠄⠄⣴⣶⣤⡤⠦⣤⣀⣤⠆⠄⠄⠄⠄⠄⣈⣭⣭⣿⣶⣿⣦⣼⣆⠄⠄⠄⠄⠄⠄⠄⠄",
+"⠄⠄⠄⠉⠻⢿⣿⠿⣿⣿⣶⣦⠤⠄⡠⢾⣿⣿⡿⠋⠉⠉⠻⣿⣿⡛⣦⠄⠄⠄⠄⠄⠄",
+"⠄⠄⠄⠄⠄⠈⠄⠄⠄⠈⢿⣿⣟⠦⠄⣾⣿⣿⣷⠄⠄⠄⠄⠻⠿⢿⣿⣧⣄⠄⠄⠄⠄",
+"⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⣸⣿⣿⢧⠄⢻⠻⣿⣿⣷⣄⣀⠄⠢⣀⡀⠈⠙⠿⠄⠄⠄⠄",
+"⠄⠄⢀⠄⠄⠄⠄⠄⠄⢠⣿⣿⣿⠈⠄⠄⠡⠌⣻⣿⣿⣿⣿⣿⣿⣿⣛⣳⣤⣀⣀⠄⠄",
+"⠄⠄⢠⣧⣶⣥⡤⢄⠄⣸⣿⣿⠘⠄⠄⢀⣴⣿⣿⡿⠛⣿⣿⣧⠈⢿⠿⠟⠛⠻⠿⠄⠄",
+"⠄⣰⣿⣿⠛⠻⣿⣿⡦⢹⣿⣷⠄⠄⠄⢊⣿⣿⡏⠄⠄⢸⣿⣿⡇⠄⢀⣠⣄⣾⠄⠄⠄",
+"⣠⣿⠿⠛⠄⢀⣿⣿⣷⠘⢿⣿⣦⡀⠄⢸⢿⣿⣿⣄⠄⣸⣿⣿⡇⣪⣿⡿⠿⣿⣷⡄⠄",
+"⠙⠃⠄⠄⠄⣼⣿⡟⠌⠄⠈⠻⣿⣿⣦⣌⡇⠻⣿⣿⣷⣿⣿⣿⠐⣿⣿⡇⠄⠛⠻⢷⣄",
+"⠄⠄⠄⠄⠄⢻⣿⣿⣄⠄⠄⠄⠈⠻⣿⣿⣿⣷⣿⣿⣿⣿⣿⡟⠄⠫⢿⣿⡆⠄⠄⠄⠁",
+"⠄⠄⠄⠄⠄⠄⠻⣿⣿⣿⣿⣶⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⡟⢀⣀⣤⣾⡿⠃⠄⠄⠄⠄",
+"⠄⠄⠄⠄⢰⣶⠄⠄⣶⠄⢶⣆⢀⣶⠂⣶⡶⠶⣦⡄⢰⣶⠶⢶⣦⠄⠄⣴⣶⠄⠄⠄⠄",
+"⠄⠄⠄⠄⢸⣿⠶⠶⣿⠄⠈⢻⣿⠁⠄⣿⡇⠄⢸⣿⢸⣿⢶⣾⠏⠄⣸⣟⣹⣧⠄⠄⠄",
+"⠄⠄⠄⠄⠸⠿⠄⠄⠿⠄⠄⠸⠿⠄⠄⠿⠷⠶⠿⠃⠸⠿⠄⠙⠷⠤⠿⠉⠉⠿⠆⠄⠄"
+]
+
+
 STEAMTOOLS_BANNER = [
 ".d88888b    dP                                d888888P                   dP",          
 "88.    '    88                                   88                      88",          
@@ -129,13 +148,41 @@ def tutorials_pubslounge_menu():
             print(f"\n{RED}Opção inválida!{RESET}") # Adicionado um feedback de erro
             pause()
 
+def tutorias_hydra_menu():
+    while True:
+        clear()
+        print(f"{RED}=== TUTORIAIS HYDRA ==={RESET}")
+        print("\n[1] Como Instalar o Hydra")
+        print("[2] Melhores fontes do Hydra")
+        print("[3] Voltar\n")
+
+
+        choice = input("Escolha: ").strip()
+        if choice == "1":
+            webbrowser.open("https://www.youtube.com/watch?v=Zx-qRm0BB6I&t=3s")
+        elif choice == "2":
+            clear()
+            print("[1] Kazumi (Melhor fonte para jogos modo historia)")
+            print(f"{ORANGE}https://davidkazumi-github-io.pages.dev/fontekazumi.json{RESET}")
+            print("[2] Online-fix( Melhor fonte para jogos Online)")
+            print(f"{ORANGE}https://hydralinks.pages.dev/sources/onlinefix.json{RESET}")
+            print("[3] Steam-RIP(2 opção caso não ter no Kazumi)")
+            print(f"{ORANGE}https://hydralinks.pages.dev/sources/steamrip.json{RESET}")
+            pause()
+        elif choice == "3":
+            break
+        else:
+            print(f"\n{RED}Opção inválida!{RESET}") # Adicionado um feedback de erro
+            pause() 
+
 def tutorials_menu():
     while True:
         clear()
         print_banner(TUTORIAL_BANNER, RED, WHITE)
         print("\n[1] Tutoriais LuaTools")
         print("[2] Tutoriais Pubs Lounge")
-        print("[3] Voltar\n")
+        print("[3] Tutorias Hydra")
+        print("[4] Voltar\n")
 
         choice = input("Escolha: ").strip()
         if choice == "1":
@@ -143,6 +190,8 @@ def tutorials_menu():
         elif choice == "2":
             tutorials_pubslounge_menu()
         elif choice == "3":
+            tutorias_hydra_menu()
+        elif choice == "4":
             break
         else:
             print(f"\n{RED}Opção inválida!{RESET}") # Adicionado um feedback de erro
@@ -245,15 +294,41 @@ def steamtools_menu():
             print(f"\n{RED}Opção inválida!{RESET}") # Adicionado um feedback de erro
             pause()
 
+def hydra_menu():
+    while True:
+        clear()
+        print_banner(HYDRA_BANNER, GREEN, WHITE)
+        print("\n[1] Instalar o Hydra")
+        print("[2] Sobre e o que faz")
+        print("[3] GitHub")
+        print("[4] Voltar\n")
+
+
+        choice = input("Escolha: ").strip()
+
+        if choice == "1":
+            webbrowser.open("https://hydralauncher.gg/HydraInstaller.exe")
+        elif choice == "2":
+            webbrowser.open("https://hydralauncher.gg/#about")
+        elif choice == "3":
+            webbrowser.open("https://github.com/hydralauncher/hydra")
+        elif choice == "4":
+            break
+        else:
+           print(f"\n{RED}Opção inválida!{RESET}")
+           pause()
+
+
 def main_menu():
     while True:
         clear()
         print(f"{PURPLE}=== MENU PRINCIPAL ==={RESET}\n")
-        print("[1] LuaTools")
+        print("\n[1] LuaTools")
         print("[2] SpiceTify")
         print("[3] SteamTools")
-        print("[4] Tutoriais e Correções")
-        print("[5] Sair\n")
+        print("[4] Hydra")
+        print("[5] Tutoriais e Correções")
+        print("[6] Sair\n")
 
         choice = input("Escolha: ").strip()
         if choice == "1":
@@ -263,8 +338,10 @@ def main_menu():
         elif choice == "3":
             steamtools_menu()
         elif choice == "4":
-            tutorials_menu()
+            hydra_menu()
         elif choice == "5":
+            tutorials_menu()
+        elif choice == "6":
             sys.exit()
         else:
             print(f"\n{RED}Opção inválida!{RESET}") # Adicionado um feedback de erro
