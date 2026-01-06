@@ -1,5 +1,5 @@
 # NOMONEY 🏴‍☠️ 
-**Uma ferramenta pra instalar facilmente os softwares mais famosos piratas.**
+**NOMONEY é uma ferramenta OPEN-SOURCE feita para instalar facilmente os softwares mais famosos piratas.**
 
 Esta ferramenta foi criada com o íntuito pra ajudar as pessoas que têm dificuldades de instalar estes softwares.
 Esta ferramenta tem várias categorias com coisas diferente como:
